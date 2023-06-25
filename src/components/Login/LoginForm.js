@@ -28,10 +28,7 @@ const LoginForm = () => {
   });
 
   const handleChangeOrganization = (e, newValue) => {
-    formik.setValues({
-      ...formik.values,
-      currency_code: "",
-    });
+    console.log("newValue", newValue);
   };
   return (
     <Box
